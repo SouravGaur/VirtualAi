@@ -1,0 +1,70 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Noto+Sans+JP&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    font-family: "Protest Guerrilla", sans-serif;
+    
+#img{
+    
+    width: 20%;
+}
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Ensures no horizontal scrollbar */
+}
+h1{
+    color: aliceblue;
+    font-weight: 35;
+    word-spacing: 10px;
+    font-size: 30px;
+}
+#name{
+    color: rgb(163, 71, 86);
+    font-size: 50px;
+}
+#va{
+    color: rgb(50, 162, 253);
+    font-size: 50px;
+}
+#voice{
+    width: 250px;
+    display: none;
+}
+#btn{
+    width: 30%;
+    background: linear-gradient(to right,rgb(17, 150, 252),rgb(249, 62, 196));
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(17, 150, 252) ,2px 2px 10px rgb(249, 62, 196);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+#btn:hover{
+    box-shadow: 2px 2px 20px rgb(17, 150, 252) ,2px 2px 20px rgb(249, 62, 196);
+    box-shadow: 2px;
+    letter-spacing: 2px;
+
+}
